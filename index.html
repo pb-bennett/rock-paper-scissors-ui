@@ -8,36 +8,56 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <h1>Rock - Paper - Scissors</h1>
-    <div class="button-holder">
-      <button class="main-btn" id="main-rock-btn">
+    <div id="main-container">
+      <div id="header-container">
         <img
-          class="btn-img"
-          id="main-rock-img"
-          src="./image/rock-lowered.svg"
-          alt=""
+          class="header-logo-img"
+          src="./image/rock-title.svg"
+          alt="Rock Paper Scissors title logo"
         />
-        ROCK
-      </button>
-      <button class="main-btn" id="main-paper-btn">
         <img
-          class="btn-img"
-          id="main-paper-img"
-          src="./image/paper-lowered.svg"
-          alt=""
+          class="header-logo-img"
+          src="./image/paper-title.svg"
+          alt="Rock Paper Scissors title logo"
         />
-        PAPER
-      </button>
-      <button class="main-btn" id="main-scissors-btn">
         <img
-          class="btn-img"
-          id="main-scissors-img"
-          src="./image/scissors-lowered.svg"
-          alt=""
+          class="header-logo-img"
+          src="./image/scissors-title.svg"
+          alt="Rock Paper Scissors title logo"
         />
-        SCISSORS
-      </button>
+      </div>
+
+      <div class="button-holder">
+        <button class="main-btn" id="main-rock-btn">
+          <img
+            class="btn-img svg"
+            id="main-rock-img"
+            src="./image/rock-grey.svg"
+            alt=""
+          />
+          <!-- ROCK -->
+        </button>
+        <button class="main-btn" id="main-paper-btn">
+          <img
+            class="btn-img svg"
+            id="main-paper-img"
+            src="./image/paper-grey.svg"
+            alt=""
+          />
+          <!-- PAPER -->
+        </button>
+        <button class="main-btn" id="main-scissors-btn">
+          <img
+            class="btn-img svg"
+            id="main-scissors-img"
+            src="./image/scissors-grey.svg"
+            alt=""
+          />
+          <!-- SCISSORS -->
+        </button>
+      </div>
+
+      <script src="./script/script.js"></script>
     </div>
-    <script src="./script/script.js"></script>
   </body>
 </html>
