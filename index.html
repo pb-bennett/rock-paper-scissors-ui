@@ -9,24 +9,53 @@
   </head>
   <body>
     <div id="main-container">
-      <div id="header-container">
+      <div id="header-container-outer">
+        <div id="header-container-inner">
+          <img
+            class="header-logo-img"
+            id="logo-rock-img"
+            src="./image/rock-title-color.svg"
+            alt="Rock Paper Scissors title logo"
+          />
+          <img
+            class="header-logo-img"
+            id="logo-paper-img"
+            src="./image/paper-title-color.svg"
+            alt="Rock Paper Scissors title logo"
+          />
+          <img
+            class="header-logo-img"
+            id="logo-scissors-img"
+            src="./image/scissors-title-color.svg"
+            alt="Rock Paper Scissors title logo"
+          />
+        </div>
+      </div>
+      <div id="scores-container-outer">
         <img
-          class="header-logo-img"
-          src="./image/rock-title.svg"
-          alt="Rock Paper Scissors title logo"
+          class="score-img"
+          id="green-score-img"
+          src="./image/score-green-0.svg"
+          alt="The player's score, in image form!"
         />
+
         <img
-          class="header-logo-img"
-          src="./image/paper-title.svg"
-          alt="Rock Paper Scissors title logo"
-        />
-        <img
-          class="header-logo-img"
-          src="./image/scissors-title.svg"
-          alt="Rock Paper Scissors title logo"
+          class="score-img"
+          id="red-score-img"
+          src="./image/score-red-0.svg"
+          alt="the
+        computer's score in image form"
         />
       </div>
-
+      <div id="commit-container">
+        <button id="commit-btn">
+          <img
+            id="commit-img"
+            src="./image/commmit-grey.svg"
+            alt="Commit your turn button image."
+          />
+        </button>
+      </div>
       <div class="button-holder">
         <button class="main-btn" id="main-rock-btn">
           <img
