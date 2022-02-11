@@ -31,8 +31,9 @@ body {
 
 .btn-img {
   max-height: 20rem;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   flex: auto;
+  border-radius: 1rem;
 }
 
 .button-holder {
@@ -48,7 +49,7 @@ body {
 #main-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   align-items: center;
   /* justify-content: center; */
 }
@@ -62,7 +63,7 @@ body {
 #header-container-inner {
   display: flex;
   justify-content: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   flex-wrap: wrap;
   padding: 1rem;
 }
@@ -86,6 +87,7 @@ body {
   display: flex;
   flex: auto;
   max-width: 370px;
+  border-radius: 1rem;
 }
 #commit-container {
   display: flex;
@@ -93,4 +95,38 @@ body {
 #commit-btn {
   border: none;
   margin: 1rem;
+  border-radius: 1rem;
+}
+
+.shadow {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  padding: 6rem;
+  border-radius: 3rem;
+  /* box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3); */
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(133, 133, 133, 0.2);
+  backdrop-filter: blur(5px);
+  z-index: 5;
 }
