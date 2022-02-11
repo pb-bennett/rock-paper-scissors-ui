@@ -48,7 +48,7 @@ const clickChoose = function (input) {
       .classList.remove("shadow");
   }
   commitImgEl.src = "./image/commit-color.svg";
-  commitBtnEl.classList.add("shadow");
+  commitImgEl.classList.add("shadow");
   document.getElementById(`main-${input}-img`).classList.add("shadow");
 
   document.getElementById(
@@ -166,7 +166,21 @@ scissorsLogoImg.addEventListener("click", function () {
 });
 
 // Mouse interactions wtih commit button
+commitBtnEl.addEventListener("mouseover", function () {
+  // chosenToggle === 1 & commitBtnEl.style
+});
+commitBtnEl.addEventListener("mouseout", function () {});
 
 commitBtnEl.addEventListener("click", function () {
   commitMove();
+});
+
+// escape key event listner to cancel and close
+
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") {
+    if (chosenToggle === 1) {
+      chosenToggle = 0;
+    }
+  }
 });

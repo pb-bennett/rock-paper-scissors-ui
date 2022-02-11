@@ -1,9 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap"); */
+
+@font-face {
+  font-family: "Neon Nanoborg";
+  src: url("neon-nanoborg.otf") format("oft");
+}
 
 * {
   background-color: #8c8c8c;
-  font-family: "Nunito", sans-serif;
+  font-family: "Neon Nanoborg";
+  /* font-family: "Nunito", sans-serif; */
   color: #d1d1d1;
+
   /* text-shadow: 5px 5px rgb(51, 51, 51); */
 }
 
@@ -101,6 +108,7 @@ body {
 .shadow {
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border: 0.1rem #dddddd solid;
 }
 
 .hidden {
@@ -109,15 +117,16 @@ body {
 
 .modal {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
-
+  background-color: rgba(133, 133, 133, 0.2);
   padding: 6rem;
   border-radius: 3rem;
   /* box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3); */
   z-index: 10;
+  font-size: 40px;
 }
 
 .overlay {
