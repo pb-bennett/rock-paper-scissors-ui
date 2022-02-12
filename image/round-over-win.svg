@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="70mm"
+   viewBox="0 0 100 70"
+   version="1.1"
+   id="svg82026"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="round-over-0.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview82028"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="3"
+     fit-margin-left="3"
+     fit-margin-right="3"
+     fit-margin-bottom="3"
+     inkscape:zoom="1.4702524"
+     inkscape:cx="175.82016"
+     inkscape:cy="50.671573"
+     inkscape:window-width="2488"
+     inkscape:window-height="1376"
+     inkscape:window-x="2632"
+     inkscape:window-y="1467"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs82023" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-37.521244,-55.503252)">
+    <g
+       id="g111650">
+      <text
+         xml:space="preserve"
+         style="font-size:50.8px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';fill:#90ff64;fill-opacity:1;stroke:#333333;stroke-width:3.96875;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="43.071247"
+         y="91.583214"
+         id="text86731"><tspan
+           sodipodi:role="line"
+           style="font-size:50.8px;fill:#90ff64;fill-opacity:1;stroke:#333333;stroke-width:3.96875;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="43.071247"
+           y="91.583214"
+           id="tspan86733">round</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:50.8px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';display:inline;fill:#90ff64;fill-opacity:1;stroke:#333333;stroke-width:3.96875;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="43.182568"
+         y="113.23581"
+         id="text87465"><tspan
+           sodipodi:role="line"
+           id="tspan87463"
+           style="font-size:50.8px;fill:#90ff64;fill-opacity:1;stroke:#333333;stroke-width:3.96875;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="43.182568"
+           y="113.23581">won</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:50.8px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';display:inline;fill:#90ff64;fill-opacity:1;stroke:#08d004;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="43.071247"
+         y="91.583214"
+         id="text97427"><tspan
+           sodipodi:role="line"
+           style="font-size:50.8px;fill:#90ff64;fill-opacity:1;stroke:#08d004;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="43.071247"
+           y="91.583214"
+           id="tspan97425">round</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:50.8px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';display:inline;fill:#90ff64;fill-opacity:1;stroke:#08d004;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="43.131256"
+         y="113.33706"
+         id="text97431"><tspan
+           sodipodi:role="line"
+           id="tspan97429"
+           style="font-size:50.8px;fill:#90ff64;fill-opacity:1;stroke:#08d004;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="43.131256"
+           y="113.33706">won</tspan></text>
+    </g>
+  </g>
+</svg>

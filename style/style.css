@@ -117,14 +117,14 @@ body {
 
 .modal {
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
-  background-color: rgba(133, 133, 133, 0.2);
+  background-color: rgba(133, 133, 133, 0.3);
   padding: 6rem;
   border-radius: 3rem;
-  /* box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3); */
+
   z-index: 10;
   font-size: 40px;
 }
@@ -135,7 +135,45 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(133, 133, 133, 0.2);
+  background-color: rgba(133, 133, 133, 0.3);
   backdrop-filter: blur(5px);
   z-index: 5;
+}
+
+#modal-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+#next-round-img {
+  max-width: 50rem;
+  border-radius: 1rem;
+}
+
+#score-result-contatiner {
+  display: flex;
+  align-items: center;
+}
+
+.move-img {
+  border-radius: 1rem;
+  /* border: #f21527 solid 0.3rem; */
+}
+
+.transparent {
+  background-color: rgba(133, 133, 133, 0);
+}
+
+.shadow-red {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border: 0.1rem #f21527 solid;
+}
+
+.shadow-green {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border: 0.1rem #08d004 solid;
 }
