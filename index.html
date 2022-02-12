@@ -120,6 +120,56 @@
       </div>
       <div class="overlay hidden"></div>
 
+      <!-- GAME OVER MODAL -->
+
+      <div class="modal shadow" id="game-over-modal" class="transparent">
+        <div id="game-over-modal-container" class="transparent">
+          <div id="game-over-score-result-contatiner" class="transparent">
+            <img
+              id="game-over-move-0-img"
+              class="transparent shadow-green move-img"
+              src="./image/rock-grey.svg"
+              alt="The player's last move image"
+            />
+            <div id="game-over-result-inner-container" class="transparent">
+              <div id="winning-scores-container" class="transparent">
+                <img
+                  id="game-over-green-score-img"
+                  class="transparent"
+                  src="./image/score-green-5.svg"
+                  alt="The end score for player!"
+                />
+                <img
+                  id="game-over-red-score-img"
+                  class="transparent"
+                  src="./image/score-red-2.svg"
+                  alt="The end score for computer!"
+                />
+              </div>
+              <img
+                id="game-over-result-img"
+                class="transparent"
+                src="./image/you-win-img.svg"
+                alt="The result of the match image"
+              />
+            </div>
+            <img
+              id="game-over-move-1-img"
+              class="transparent shadow-red move-img"
+              src="./image/scissors-grey.svg"
+              alt="The computer's final move image"
+            />
+          </div>
+          <img
+            id="new-game-img"
+            class="transparent shadow"
+            src="./image/new-game.svg"
+            alt="Next game button image"
+          />
+        </div>
+      </div>
+      <div class="overlay"></div>
+
       <script src="./script/script.js"></script>
     </div>
   </body>

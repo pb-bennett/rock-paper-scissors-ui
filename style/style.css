@@ -159,6 +159,8 @@ body {
 
 .move-img {
   border-radius: 1rem;
+  max-width: 10rem;
+  flex: auto;
   /* border: #f21527 solid 0.3rem; */
 }
 
@@ -169,11 +171,52 @@ body {
 .shadow-red {
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  border: 0.1rem #f21527 solid;
+  border: 0.2rem #f21527 solid;
 }
 
 .shadow-green {
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  border: 0.1rem #08d004 solid;
+  border: 0.2rem #08d004 solid;
+}
+
+#game-over-modal-container {
+  display: flex;
+  flex-direction: column;
+  border: white 1px solid;
+  align-items: center;
+}
+
+#new-game-img {
+  min-width: 20rem;
+  border-radius: 1rem;
+  /* border: white 1px solid; */
+}
+
+#game-over-score-result-contatiner {
+  display: flex;
+  align-items: center;
+  border: white 1px solid;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#game-over-result-img {
+  min-width: 15rem;
+}
+
+#winning-scores-container {
+  display: flex;
+  justify-content: center;
+  border: white 1px solid;
+}
+
+#game-over-modal {
+  max-width: 50rem;
+}
+
+#game-over-result-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

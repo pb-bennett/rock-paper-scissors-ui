@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="77.172867mm"
+   height="29.547901mm"
+   viewBox="0 0 77.172867 29.547901"
+   version="1.1"
+   id="svg137529"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="reset-img.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview137531"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="3"
+     fit-margin-left="3"
+     fit-margin-right="3"
+     fit-margin-bottom="3"
+     inkscape:zoom="3.1108586"
+     inkscape:cx="197.85535"
+     inkscape:cy="66.380388"
+     inkscape:window-width="2488"
+     inkscape:window-height="1376"
+     inkscape:window-x="2632"
+     inkscape:window-y="1467"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs137526" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-76.074611,-131.89581)">
+    <text
+       xml:space="preserve"
+       style="font-size:42.3333px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';fill:#f38a62;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="80.265236"
+       y="157.25308"
+       id="text153830"><tspan
+         sodipodi:role="line"
+         id="tspan153828"
+         style="font-size:42.3333px;fill:#f38a62;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="80.265236"
+         y="157.25308">reset</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:42.3333px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';fill:#f38a62;fill-opacity:1;stroke:#b64000;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="80.265236"
+       y="157.25308"
+       id="text174028"><tspan
+         sodipodi:role="line"
+         id="tspan174026"
+         style="font-size:42.3333px;fill:#f38a62;fill-opacity:1;stroke:#b64000;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="80.265236"
+         y="157.25308">reset</tspan></text>
+  </g>
+</svg>
