@@ -34,15 +34,15 @@
       <div id="scores-container-outer">
         <img
           class="score-img"
-          id="green-score-img"
-          src="./image/score-green-0.svg"
+          id="0-score-img"
+          src="./image/score-0-0.svg"
           alt="The player's score, in image form!"
         />
 
         <img
           class="score-img"
-          id="red-score-img"
-          src="./image/score-red-0.svg"
+          id="1-score-img"
+          src="./image/score-1-0.svg"
           alt="the
         computer's score in image form"
         />
@@ -86,10 +86,30 @@
         </button>
       </div>
 
+      <img
+        id="reset-img"
+        src="./image/reset-img.svg"
+        alt="Reset button image"
+      />
+
       <!-- BATTLE MODAL -->
 
-      <div class="modal shadow hidden" id="battle-modal" class="transparent">
+      <div class="modal shadow" id="battle-modal" class="transparent">
         <div id="modal-container" class="transparent">
+          <div class="transparent" id="modal-score-container">
+            <img
+              id="modal-0-score-img"
+              class="transparent modal-score"
+              src="./image/score-1-5.svg"
+              alt="The end score for player!"
+            />
+            <img
+              id="modal-1-score-img"
+              class="transparent modal-score"
+              src="./image/score-0-2.svg"
+              alt="The end score for computer!"
+            />
+          </div>
           <div id="score-result-contatiner" class="transparent">
             <img
               id="move-0-img"
@@ -99,7 +119,7 @@
             />
             <img
               id="round-result-img"
-              class="transparent"
+              class="transparent result"
               src="./image/round-over-win.svg"
               alt="The result of the round image"
             />
@@ -118,11 +138,11 @@
           />
         </div>
       </div>
-      <div class="overlay hidden"></div>
+      <div class="overlay"></div>
 
       <!-- GAME OVER MODAL -->
 
-      <div class="modal shadow" id="game-over-modal" class="transparent">
+      <div class="modal shadow hidden transparent" id="game-over-modal">
         <div id="game-over-modal-container" class="transparent">
           <div id="game-over-score-result-contatiner" class="transparent">
             <img
@@ -134,21 +154,21 @@
             <div id="game-over-result-inner-container" class="transparent">
               <div id="winning-scores-container" class="transparent">
                 <img
-                  id="game-over-green-score-img"
-                  class="transparent"
-                  src="./image/score-green-5.svg"
+                  id="game-over-0-score-img"
+                  class="transparent game-over-score"
+                  src="./image/score-1-5.svg"
                   alt="The end score for player!"
                 />
                 <img
-                  id="game-over-red-score-img"
-                  class="transparent"
-                  src="./image/score-red-2.svg"
+                  id="game-over-1-score-img"
+                  class="transparent game-over-score"
+                  src="./image/score-0-2.svg"
                   alt="The end score for computer!"
                 />
               </div>
               <img
                 id="game-over-result-img"
-                class="transparent"
+                class="transparent result"
                 src="./image/you-win-img.svg"
                 alt="The result of the match image"
               />
@@ -168,7 +188,7 @@
           />
         </div>
       </div>
-      <div class="overlay"></div>
+      <div class="overlay hidden"></div>
 
       <script src="./script/script.js"></script>
     </div>

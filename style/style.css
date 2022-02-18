@@ -14,6 +14,10 @@
   /* text-shadow: 5px 5px rgb(51, 51, 51); */
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
 }
 
@@ -120,13 +124,14 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+  /* max-width: 90%; */
   background-color: rgba(133, 133, 133, 0.3);
-  padding: 6rem;
+  /* padding: 6rem; */
   border-radius: 3rem;
-
+  border: white solid 2px;
   z-index: 10;
   font-size: 40px;
+  /* max-height: 90%; */
 }
 
 .overlay {
@@ -135,7 +140,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(133, 133, 133, 0.3);
+  background-color: rgba(133, 133, 133, 0.5);
   backdrop-filter: blur(5px);
   z-index: 5;
 }
@@ -145,16 +150,26 @@ body {
   flex-direction: column;
 
   align-items: center;
+  border: pink solid 2px;
 }
 
 #next-round-img {
   max-width: 50rem;
   border-radius: 1rem;
+  border: white solid 2px;
 }
 
 #score-result-contatiner {
   display: flex;
   align-items: center;
+  border: orange solid 2px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* max-height: 100%; */
+}
+
+.result {
+  width: 30rem;
 }
 
 .move-img {
@@ -180,15 +195,19 @@ body {
   border: 0.2rem #08d004 solid;
 }
 
+.modal-score {
+  max-width: 7rem;
+}
+
 #game-over-modal-container {
   display: flex;
   flex-direction: column;
-  border: white 1px solid;
+  /* border: white 1px solid; */
   align-items: center;
 }
 
 #new-game-img {
-  min-width: 20rem;
+  min-width: 10rem;
   border-radius: 1rem;
   /* border: white 1px solid; */
 }
@@ -196,27 +215,28 @@ body {
 #game-over-score-result-contatiner {
   display: flex;
   align-items: center;
-  border: white 1px solid;
+  /* border: white 1px solid; */
   flex-wrap: wrap;
   justify-content: center;
 }
 
 #game-over-result-img {
-  min-width: 15rem;
+  /* min-width: 15rem; */
 }
 
 #winning-scores-container {
   display: flex;
   justify-content: center;
-  border: white 1px solid;
-}
-
-#game-over-modal {
-  max-width: 50rem;
+  /* border: white 1px solid; */
 }
 
 #game-over-result-inner-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#reset-img {
+  max-width: 10rem;
+  border-radius: 1rem;
 }

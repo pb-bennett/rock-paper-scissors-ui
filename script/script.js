@@ -14,6 +14,8 @@ const scissorsBtnImgEl = document.getElementById("main-scissors-img");
 
 const battleModalEl = document.getElementById("battle-modal");
 const overlayEl = document.querySelector(".overlay");
+const gameOverModalEl = document.getElementById("game-over-modal");
+const gameOverResultImgEl = document.getElementById("game-over-result-img");
 
 const commitImgEl = document.getElementById("commit-img");
 const commitBtnEl = document.getElementById("commit-btn");
@@ -21,20 +23,24 @@ const commitBtnEl = document.getElementById("commit-btn");
 const nextRoundBtnEl = document.getElementById("next-round-img");
 const roundResultEl = document.getElementById("round-result-img");
 
-const greenScoreImg = document.getElementById("green-score-img");
-const redScoreImg = document.getElementById("red-score-img");
-
-//defining colour variables
-const rockColor = "#ff36b5";
-const paperColor = "#45a2ff";
-const scissorsColor = "#fff648";
-const mainColor = "#d1d1d1";
+const resetBtnEl = document.getElementById("reset-img");
+const newGameBtnEl = document.getElementById("new-game-img");
 
 //defining variables
 const options = ["rock", "paper", "scissors"];
-const scores = [0, 0];
+let scores = [0, 0];
 let chosenToggle = 0;
 const chosen = [0, 0];
+let gameOverToggle = 0;
+
+// defining reset function
+const resetGame = function () {
+  scores = [0, 0];
+  chosenToggle = 0;
+  closeAll();
+  console.log("reseting");
+  gameOverToggle = 0;
+};
 
 //defining click functions
 
@@ -96,19 +102,39 @@ const roundResult = function (GM, RM) {
 const updateScores = function (res) {
   if (res !== "draw") {
     res === "win" ? scores[0]++ : scores[1]++;
-    greenScoreImg.src = `./image/score-green-${scores[0]}.svg`;
-    redScoreImg.src = `./image/score-red-${scores[1]}.svg`;
+    updateScoreImages();
   }
   console.log(scores);
 };
 
+const updateScoreImages = function () {
+  // greenScoreImg.src = `./image/score-0-${scores[0]}.svg`;
+  // redScoreImg.src = `./image/score-1-${scores[1]}.svg`;
+  for (let i = 0; i < 2; i++) {
+    document.getElementById(
+      `${i}-score-img`
+    ).src = `./image/score-${i}-${scores[i]}.svg`;
+  }
+};
 //definging winning function
 
 const aWinner = function () {
+  gameOverModalEl.classList.remove("hidden");
+  overlayEl.classList.remove("hidden");
+  for (let i = 0; i < 2; i++) {
+    document.getElementById(
+      `game-over-move-${i}-img`
+    ).src = `./image/${chosen[i]}-color.svg
+      `;
+    document.getElementById(
+      `game-over-${i}-score-img`
+    ).src = `./image/score-${i}-${scores[i]}.svg`;
+  }
+  gameOverToggle = 1;
   if (scores[0] > scores[1]) {
-    console.log("You win!");
+    gameOverResultImgEl.src = "./image/you-win-img.svg";
   } else {
-    console.log("You lose!");
+    gameOverResultImgEl.src = "./image/you-lose-img.svg";
   }
 };
 
@@ -117,7 +143,9 @@ const aWinner = function () {
 const closeAll = function () {
   battleModalEl.classList.add("hidden");
   overlayEl.classList.add("hidden");
+  gameOverModalEl.classList.add("hidden");
   resetChosen();
+  updateScoreImages();
 };
 
 //defining reset chosen function
@@ -174,7 +202,7 @@ const commitMove = function () {
     updateScores(result);
     console.log(chosen);
     console.log("click");
-    if (scores[0] > 4 || scores[1] > 4) {
+    if (scores[0] > 1 || scores[1] > 1) {
       aWinner();
     } else {
       battleModalEl.classList.remove("hidden");
@@ -248,18 +276,23 @@ scissorsLogoImg.addEventListener("click", function () {
 });
 
 // Mouse interactions wtih commit button
-commitBtnEl.addEventListener("mouseover", function () {
-  // chosenToggle === 1 & commitBtnEl.style
-});
+commitBtnEl.addEventListener("mouseover", function () {});
 commitBtnEl.addEventListener("mouseout", function () {});
 
 commitBtnEl.addEventListener("click", function () {
   commitMove();
 });
 
+// Mouse interaction with next round button on battle modal
 nextRoundBtnEl.addEventListener("click", function () {
   closeAll();
 });
+
+// Mouse interaction with reset button and new game button
+
+resetBtnEl.addEventListener("click", resetGame);
+
+newGameBtnEl.addEventListener("click", resetGame);
 
 // escape key event listner to cancel and close
 

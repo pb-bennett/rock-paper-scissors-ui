@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="35.192387mm"
-   height="26.501869mm"
-   viewBox="0 0 35.192387 26.501869"
+   width="400"
+   height="300"
+   viewBox="0 0 105.83333 79.375"
    version="1.1"
    id="svg111668"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
@@ -27,15 +27,17 @@
      fit-margin-left="3"
      fit-margin-right="3"
      fit-margin-bottom="3"
-     inkscape:zoom="3.1108586"
-     inkscape:cx="-9.1614579"
-     inkscape:cy="5.6254566"
-     inkscape:window-width="2488"
-     inkscape:window-height="1376"
-     inkscape:window-x="2632"
-     inkscape:window-y="1467"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:zoom="1.5554293"
+     inkscape:cx="113.15204"
+     inkscape:cy="137.90405"
+     inkscape:window-width="2101"
+     inkscape:window-height="1082"
+     inkscape:window-x="103"
+     inkscape:window-y="1661"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     units="px"
+     width="400px" />
   <defs
      id="defs111665" />
   <g
@@ -44,58 +46,60 @@
      id="layer1"
      transform="translate(-82.553761,-108.59979)">
     <g
-       id="g126744"
-       style="display:inline;fill:#fa7574;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       transform="translate(-14.130393,1.8969651)">
-      <text
-         xml:space="preserve"
-         style="font-size:22.5778px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';fill:#fa7574;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="103.56659"
-         y="117.94901"
-         id="text117495-3"><tspan
-           sodipodi:role="line"
-           style="fill:#fa7574;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           x="103.56659"
-           y="117.94901"
-           id="tspan117497-6">you</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:22.5778px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';fill:#fa7574;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="100.87478"
-         y="129.01407"
-         id="text118163-7"><tspan
-           sodipodi:role="line"
-           id="tspan118161-5"
-           style="fill:#fa7574;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           x="100.87478"
-           y="129.01407">lose</tspan></text>
-    </g>
-    <g
-       id="g127006"
-       style="display:inline;fill:#fa7574;fill-opacity:1;stroke:#f21527;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       transform="translate(-14.130393,1.8969651)">
-      <text
-         xml:space="preserve"
-         style="font-size:22.5778px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';fill:#fa7574;fill-opacity:1;stroke:#f21527;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="103.56659"
-         y="117.94901"
-         id="text127000"><tspan
-           sodipodi:role="line"
-           style="fill:#fa7574;fill-opacity:1;stroke:#f21527;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           x="103.56659"
-           y="117.94901"
-           id="tspan126998">you</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:22.5778px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';fill:#fa7574;fill-opacity:1;stroke:#f21527;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="100.87478"
-         y="129.01407"
-         id="text127004"><tspan
-           sodipodi:role="line"
-           id="tspan127002"
-           style="fill:#fa7574;fill-opacity:1;stroke:#f21527;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           x="100.87478"
-           y="129.01407">lose</tspan></text>
+       id="g905"
+       transform="matrix(1.2291526,0,0,1.2291526,-30.560656,-35.955255)">
+      <g
+         id="g887"
+         transform="translate(-4.9971489,-5.9476921)">
+        <text
+           xml:space="preserve"
+           style="font-size:42.5319px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';display:inline;fill:#fa7574;fill-opacity:1;stroke:#333333;stroke-width:4.48578;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="114.85418"
+           y="146.19218"
+           id="text117495-3"><tspan
+             sodipodi:role="line"
+             style="fill:#fa7574;fill-opacity:1;stroke:#333333;stroke-width:4.48578;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             x="114.85418"
+             y="146.19218"
+             id="tspan117497-6">you</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:42.5319px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';display:inline;fill:#fa7574;fill-opacity:1;stroke:#f21527;stroke-width:1.49526;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="114.85418"
+           y="146.19218"
+           id="text127000"><tspan
+             sodipodi:role="line"
+             style="fill:#fa7574;fill-opacity:1;stroke:#f21527;stroke-width:1.49526;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             x="114.85418"
+             y="146.19218"
+             id="tspan126998">you</tspan></text>
+      </g>
+      <g
+         id="g893"
+         transform="translate(0.04100277,5.7981838)">
+        <text
+           xml:space="preserve"
+           style="font-size:42.5319px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';display:inline;fill:#fa7574;fill-opacity:1;stroke:#333333;stroke-width:4.48578;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="109.78336"
+           y="167.03645"
+           id="text118163-7"><tspan
+             sodipodi:role="line"
+             id="tspan118161-5"
+             style="fill:#fa7574;fill-opacity:1;stroke:#333333;stroke-width:4.48578;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             x="109.78336"
+             y="167.03645">lose</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:42.5319px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';display:inline;fill:#fa7574;fill-opacity:1;stroke:#f21527;stroke-width:1.49526;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="109.78336"
+           y="167.03645"
+           id="text127004"><tspan
+             sodipodi:role="line"
+             id="tspan127002"
+             style="fill:#fa7574;fill-opacity:1;stroke:#f21527;stroke-width:1.49526;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             x="109.78336"
+             y="167.03645">lose</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
