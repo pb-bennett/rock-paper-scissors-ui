@@ -107,6 +107,15 @@ const updateScores = function (res) {
   console.log(scores);
 };
 
+const updateMoveImages = function () {
+  for (let i = 0; i < 2; i++) {
+    document.getElementById(
+      `move-${i}-img`
+    ).src = `./image/${chosen[i]}-color.svg
+  `;
+  }
+};
+
 const updateScoreImages = function () {
   // greenScoreImg.src = `./image/score-0-${scores[0]}.svg`;
   // redScoreImg.src = `./image/score-1-${scores[1]}.svg`;
@@ -114,13 +123,20 @@ const updateScoreImages = function () {
     document.getElementById(
       `${i}-score-img`
     ).src = `./image/score-${i}-${scores[i]}.svg`;
+    document.getElementById(
+      `modal-${i}-score-img`
+    ).src = `./image/score-${i}-${scores[i]}.svg`;
   }
 };
 //definging winning function
 
 const aWinner = function () {
-  gameOverModalEl.classList.remove("hidden");
+  battleModalEl.classList.remove("hidden");
   overlayEl.classList.remove("hidden");
+  nextRoundBtnEl.src = "./image/new-game.svg";
+  updateMoveImages();
+  // gameOverModalEl.classList.remove("hidden");
+  // overlayEl.classList.remove("hidden");
   for (let i = 0; i < 2; i++) {
     document.getElementById(
       `game-over-move-${i}-img`
@@ -132,9 +148,9 @@ const aWinner = function () {
   }
   gameOverToggle = 1;
   if (scores[0] > scores[1]) {
-    gameOverResultImgEl.src = "./image/you-win-img.svg";
+    roundResultEl.src = "./image/you-win-img.svg";
   } else {
-    gameOverResultImgEl.src = "./image/you-lose-img.svg";
+    roundResultEl.src = "./image/you-lose-img.svg";
   }
 };
 
@@ -202,17 +218,19 @@ const commitMove = function () {
     updateScores(result);
     console.log(chosen);
     console.log("click");
+    updateMoveImages();
     if (scores[0] > 1 || scores[1] > 1) {
       aWinner();
     } else {
+      nextRoundBtnEl.src = "./image/next-round-img.svg";
       battleModalEl.classList.remove("hidden");
       overlayEl.classList.remove("hidden");
-      for (let i = 0; i < 2; i++) {
-        document.getElementById(
-          `move-${i}-img`
-        ).src = `./image/${chosen[i]}-color.svg
-      `;
-      }
+      // for (let i = 0; i < 2; i++) {
+      //   document.getElementById(
+      //     `move-${i}-img`
+      //   ).src = `./image/${chosen[i]}-color.svg
+      // `;
+      // }
     }
   }
 };
@@ -285,7 +303,13 @@ commitBtnEl.addEventListener("click", function () {
 
 // Mouse interaction with next round button on battle modal
 nextRoundBtnEl.addEventListener("click", function () {
-  closeAll();
+  if (gameOverToggle === 0) {
+    closeAll();
+    console.log("closing all");
+  } else {
+    resetGame();
+    console.log("resetting");
+  }
 });
 
 // Mouse interaction with reset button and new game button

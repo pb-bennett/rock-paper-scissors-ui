@@ -94,7 +94,7 @@
 
       <!-- BATTLE MODAL -->
 
-      <div class="modal shadow" id="battle-modal" class="transparent">
+      <div class="modal shadow hidden" id="battle-modal" class="transparent">
         <div id="modal-container" class="transparent">
           <div class="transparent" id="modal-score-container">
             <img
@@ -111,24 +111,42 @@
             />
           </div>
           <div id="score-result-contatiner" class="transparent">
-            <img
-              id="move-0-img"
-              class="transparent shadow-green move-img"
-              src="./image/rock-grey.svg"
-              alt="The player's move image"
-            />
+            <div class="transparent move-container" id="green-move-container">
+              <img
+                id="your-move-img"
+                class="transparent move-img"
+                src="./image/your-move-img.svg"
+                alt="your move text image"
+              />
+
+              <img
+                id="move-0-img"
+                class="transparent shadow-green move-img"
+                src="./image/rock-grey.svg"
+                alt="The player's move image"
+              />
+            </div>
             <img
               id="round-result-img"
               class="transparent result"
               src="./image/round-over-win.svg"
               alt="The result of the round image"
             />
-            <img
-              id="move-1-img"
-              class="transparent shadow-red move-img"
-              src="./image/scissors-grey.svg"
-              alt="The computer's move image"
-            />
+            <div class="transparent move-container" id="red-move-container">
+              <img
+                id="cpu-move-img"
+                class="transparent move-img"
+                src="./image/cpu-move-img.svg"
+                alt="cpu move text image"
+              />
+
+              <img
+                id="move-1-img"
+                class="transparent shadow-red move-img"
+                src="./image/scissors-grey.svg"
+                alt="The computer's move image"
+              />
+            </div>
           </div>
           <img
             id="next-round-img"
@@ -138,7 +156,7 @@
           />
         </div>
       </div>
-      <div class="overlay"></div>
+      <div class="overlay hidden"></div>
 
       <!-- GAME OVER MODAL -->
 
