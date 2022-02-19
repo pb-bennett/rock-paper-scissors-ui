@@ -33,15 +33,6 @@ let chosenToggle = 0;
 const chosen = [0, 0];
 let gameOverToggle = 0;
 
-// defining reset function
-const resetGame = function () {
-  scores = [0, 0];
-  chosenToggle = 0;
-  closeAll();
-  console.log("reseting");
-  gameOverToggle = 0;
-};
-
 //defining click functions
 
 const clickChoose = function (input) {
@@ -137,15 +128,15 @@ const aWinner = function () {
   updateMoveImages();
   // gameOverModalEl.classList.remove("hidden");
   // overlayEl.classList.remove("hidden");
-  for (let i = 0; i < 2; i++) {
-    document.getElementById(
-      `game-over-move-${i}-img`
-    ).src = `./image/${chosen[i]}-color.svg
-      `;
-    document.getElementById(
-      `game-over-${i}-score-img`
-    ).src = `./image/score-${i}-${scores[i]}.svg`;
-  }
+  // for (let i = 0; i < 2; i++) {
+  //   document.getElementById(
+  //     `game-over-move-${i}-img`
+  //   ).src = `./image/${chosen[i]}-color.svg
+  //     `;
+  //   document.getElementById(
+  //     `game-over-${i}-score-img`
+  //   ).src = `./image/score-${i}-${scores[i]}.svg`;
+  // }
   gameOverToggle = 1;
   if (scores[0] > scores[1]) {
     roundResultEl.src = "./image/you-win-img.svg";
@@ -154,12 +145,21 @@ const aWinner = function () {
   }
 };
 
+// defining reset function
+const resetGame = function () {
+  scores = [0, 0];
+  chosenToggle = 0;
+  closeAll();
+  console.log("reseting");
+  gameOverToggle = 0;
+};
+
 //defining closing modal function
 
 const closeAll = function () {
   battleModalEl.classList.add("hidden");
   overlayEl.classList.add("hidden");
-  gameOverModalEl.classList.add("hidden");
+  // gameOverModalEl.classList.add("hidden");
   resetChosen();
   updateScoreImages();
 };
@@ -219,7 +219,7 @@ const commitMove = function () {
     console.log(chosen);
     console.log("click");
     updateMoveImages();
-    if (scores[0] > 1 || scores[1] > 1) {
+    if (scores[0] > 4 || scores[1] > 4) {
       aWinner();
     } else {
       nextRoundBtnEl.src = "./image/next-round-img.svg";
@@ -315,8 +315,9 @@ nextRoundBtnEl.addEventListener("click", function () {
 // Mouse interaction with reset button and new game button
 
 resetBtnEl.addEventListener("click", resetGame);
+overlayEl.addEventListener("click", closeAll);
 
-newGameBtnEl.addEventListener("click", resetGame);
+// newGameBtnEl.addEventListener("click", resetGame);
 
 // escape key event listner to cancel and close
 

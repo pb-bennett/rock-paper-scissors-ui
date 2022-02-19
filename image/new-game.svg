@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="43.659061mm"
-   height="27.328815mm"
-   viewBox="0 0 43.659061 27.328815"
+   width="200"
+   height="110"
+   viewBox="0 0 52.916668 29.104167"
    version="1.1"
    id="svg127297"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
@@ -28,14 +28,16 @@
      fit-margin-right="3"
      fit-margin-bottom="3"
      inkscape:zoom="3.1108586"
-     inkscape:cx="121.34914"
+     inkscape:cx="121.50986"
      inkscape:cy="60.272749"
-     inkscape:window-width="2488"
-     inkscape:window-height="1376"
-     inkscape:window-x="2632"
-     inkscape:window-y="1467"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:window-width="2201"
+     inkscape:window-height="1082"
+     inkscape:window-x="2747"
+     inkscape:window-y="1698"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     units="px"
+     width="200px" />
   <defs
      id="defs127294" />
   <g
@@ -43,57 +45,49 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-54.254741,-144.59059)">
-    <g
-       id="g137376"
-       style="fill:#f38a62;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-      <text
-         xml:space="preserve"
-         style="font-size:22.5778px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';fill:#f38a62;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="58.828674"
-         y="155.83678"
-         id="text133982"><tspan
-           sodipodi:role="line"
-           style="fill:#f38a62;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           x="58.828674"
-           y="155.83678"
-           id="tspan133984">new</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:22.5778px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';fill:#f38a62;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="58.445366"
-         y="164.90656"
-         id="text135442"><tspan
-           sodipodi:role="line"
-           id="tspan135440"
-           style="fill:#f38a62;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           x="58.445366"
-           y="164.90656">game</tspan></text>
-    </g>
-    <g
-       id="g137476"
-       style="fill:#f38a62;fill-opacity:1;stroke:#b64000;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-      <text
-         xml:space="preserve"
-         style="font-size:22.5778px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';fill:#f38a62;fill-opacity:1;stroke:#b64000;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="58.828674"
-         y="155.83678"
-         id="text137470"><tspan
-           sodipodi:role="line"
-           style="fill:#f38a62;fill-opacity:1;stroke:#b64000;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           x="58.828674"
-           y="155.83678"
-           id="tspan137468">new</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:22.5778px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';fill:#f38a62;fill-opacity:1;stroke:#b64000;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="58.445366"
-         y="164.90656"
-         id="text137474"><tspan
-           sodipodi:role="line"
-           id="tspan137472"
-           style="fill:#f38a62;fill-opacity:1;stroke:#b64000;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           x="58.445366"
-           y="164.90656">game</tspan></text>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5778px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';display:inline;fill:#f38a62;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="63.00124"
+       y="155.66612"
+       id="text133982"><tspan
+         sodipodi:role="line"
+         style="fill:#f38a62;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="63.00124"
+         y="155.66612"
+         id="tspan133984">new</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5778px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';display:inline;fill:#f2b368;fill-opacity:1;stroke:#9d6a18;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="63.00124"
+       y="155.66612"
+       id="text137470"><tspan
+         sodipodi:role="line"
+         style="fill:#f2b368;fill-opacity:1;stroke:#9d6a18;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="63.00124"
+         y="155.66612"
+         id="tspan137468">new</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5778px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';display:inline;fill:#f38a62;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="63.147099"
+       y="166.85257"
+       id="text135442"><tspan
+         sodipodi:role="line"
+         id="tspan135440"
+         style="fill:#f38a62;fill-opacity:1;stroke:#333333;stroke-width:2.38125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="63.147099"
+         y="166.85257">game</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5778px;line-height:1.25;font-family:'Neon Nanoborg';-inkscape-font-specification:'Neon Nanoborg';display:inline;fill:#f2b368;fill-opacity:1;stroke:#9d6a18;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="63.147099"
+       y="166.85257"
+       id="text137474"><tspan
+         sodipodi:role="line"
+         id="tspan137472"
+         style="fill:#f2b368;fill-opacity:1;stroke:#9d6a18;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="63.147099"
+         y="166.85257">game</tspan></text>
   </g>
 </svg>
