@@ -24,7 +24,7 @@ const nextRoundBtnEl = document.getElementById("next-round-img");
 const roundResultEl = document.getElementById("round-result-img");
 
 const resetBtnEl = document.getElementById("reset-img");
-const newGameBtnEl = document.getElementById("new-game-img");
+// const newGameBtnEl = document.getElementById("new-game-img");
 
 //defining variables
 const options = ["rock", "paper", "scissors"];
@@ -108,8 +108,6 @@ const updateMoveImages = function () {
 };
 
 const updateScoreImages = function () {
-  // greenScoreImg.src = `./image/score-0-${scores[0]}.svg`;
-  // redScoreImg.src = `./image/score-1-${scores[1]}.svg`;
   for (let i = 0; i < 2; i++) {
     document.getElementById(
       `${i}-score-img`
@@ -126,22 +124,24 @@ const aWinner = function () {
   overlayEl.classList.remove("hidden");
   nextRoundBtnEl.src = "./image/new-game.svg";
   updateMoveImages();
-  // gameOverModalEl.classList.remove("hidden");
-  // overlayEl.classList.remove("hidden");
-  // for (let i = 0; i < 2; i++) {
-  //   document.getElementById(
-  //     `game-over-move-${i}-img`
-  //   ).src = `./image/${chosen[i]}-color.svg
-  //     `;
-  //   document.getElementById(
-  //     `game-over-${i}-score-img`
-  //   ).src = `./image/score-${i}-${scores[i]}.svg`;
-  // }
+
   gameOverToggle = 1;
   if (scores[0] > scores[1]) {
     roundResultEl.src = "./image/you-win-img.svg";
   } else {
     roundResultEl.src = "./image/you-lose-img.svg";
+  }
+};
+
+//defining reset/next round function
+
+const resetClose = function () {
+  if (gameOverToggle === 0) {
+    closeAll();
+    console.log("closing all");
+  } else {
+    resetGame();
+    console.log("resetting");
   }
 };
 
@@ -152,6 +152,7 @@ const resetGame = function () {
   closeAll();
   console.log("reseting");
   gameOverToggle = 0;
+  updateScoreImages();
 };
 
 //defining closing modal function
@@ -159,7 +160,6 @@ const resetGame = function () {
 const closeAll = function () {
   battleModalEl.classList.add("hidden");
   overlayEl.classList.add("hidden");
-  // gameOverModalEl.classList.add("hidden");
   resetChosen();
   updateScoreImages();
 };
@@ -225,12 +225,6 @@ const commitMove = function () {
       nextRoundBtnEl.src = "./image/next-round-img.svg";
       battleModalEl.classList.remove("hidden");
       overlayEl.classList.remove("hidden");
-      // for (let i = 0; i < 2; i++) {
-      //   document.getElementById(
-      //     `move-${i}-img`
-      //   ).src = `./image/${chosen[i]}-color.svg
-      // `;
-      // }
     }
   }
 };
@@ -302,22 +296,19 @@ commitBtnEl.addEventListener("click", function () {
 });
 
 // Mouse interaction with next round button on battle modal
-nextRoundBtnEl.addEventListener("click", function () {
-  if (gameOverToggle === 0) {
-    closeAll();
-    console.log("closing all");
-  } else {
-    resetGame();
-    console.log("resetting");
-  }
-});
+nextRoundBtnEl.addEventListener("click", resetClose);
+// if (gameOverToggle === 0) {
+//   closeAll();
+//   console.log("closing all");
+// } else {
+//   resetGame();
+//   console.log("resetting");
+// }
 
 // Mouse interaction with reset button and new game button
 
 resetBtnEl.addEventListener("click", resetGame);
-overlayEl.addEventListener("click", closeAll);
-
-// newGameBtnEl.addEventListener("click", resetGame);
+overlayEl.addEventListener("click", resetClose);
 
 // escape key event listner to cancel and close
 
