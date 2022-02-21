@@ -24,7 +24,6 @@ const nextRoundBtnEl = document.getElementById("next-round-img");
 const roundResultEl = document.getElementById("round-result-img");
 
 const resetBtnEl = document.getElementById("reset-img");
-// const newGameBtnEl = document.getElementById("new-game-img");
 
 //defining variables
 const options = ["rock", "paper", "scissors"];
@@ -297,17 +296,9 @@ commitBtnEl.addEventListener("click", function () {
 
 // Mouse interaction with next round button on battle modal
 nextRoundBtnEl.addEventListener("click", resetClose);
-// if (gameOverToggle === 0) {
-//   closeAll();
-//   console.log("closing all");
-// } else {
-//   resetGame();
-//   console.log("resetting");
-// }
-
-// Mouse interaction with reset button and new game button
-
+// Mouse interaction with reset button
 resetBtnEl.addEventListener("click", resetGame);
+// Mouse interaction with overlay
 overlayEl.addEventListener("click", resetClose);
 
 // escape key event listner to cancel and close
@@ -318,7 +309,7 @@ document.addEventListener("keydown", function (e) {
   if (e.key === "Escape") {
     if (!battleModalEl.classList.contains("hidden")) {
       chosenToggle = 0;
-      closeAll();
+      resetClose();
       console.log(e.key);
     } else if (chosenToggle === 1) {
       resetChosen();
